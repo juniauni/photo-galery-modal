@@ -18,7 +18,8 @@ h1 {
 .container {
     width: 1325px;
     height: 550px;
-    background-color: rgb(152, 152, 187);
+    /* background-color: rgb(152, 152, 187); */  /* you can use this to know how large the container is */
+    background-color: rgb(233, 233, 255);
     margin: auto;
     padding: 30px;
     border-radius: 5px;
@@ -28,13 +29,13 @@ h1 {
 }
 
 .gallery li {
-    width: 256px;
+    width: 232px;
     height: 210px;
     cursor: pointer;
     overflow: hidden;
     border: 5px solid rgb(233, 233, 255);
     float: left;
-    margin: 30px 30px;
+    margin: 30px 10px;
     position: relative;
 }
 
