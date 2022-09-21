@@ -6,24 +6,45 @@
 
 body {
   background-color: rgb(233, 233, 255);
+  font-family: sans-serif;
 }
 
 h1 {
   font-size: 80px;
-  margin: 50 0;
+  margin: 30px 0;
   text-align: center;
   color: rgb(152, 152, 187);
+  font-family: 'Bungee Spice', cursive;
 }
 
 .container {
   width: 1325px;
-  height: 550px;
+  /* height: 550px; */
   background-color: rgb(233, 233, 255);
   margin: auto;
   padding: 30px;
   border-radius: 5px;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-rows: repeat(auto-fill, 180px);
+  gap: 1rem;
+  width: min(90%, 1325px);
+}
+
+a {
+  height: 180px;
 }
 
 .container img {
-  padding: 8.9px;
+  /* padding: 8.9px; - not needed anymore since we're using gap to put space between the images */ 
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  transition-duration: 200ms;
+}
+
+.container img:hover {
+  transform: scale(1.1);
 }
