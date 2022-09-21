@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(233, 233, 255);
+}
+
+h1 {
+  font-size: 80px;
+  margin: 50 0;
+  text-align: center;
+  color: rgb(152, 152, 187);
+}
+
+.container {
+  width: 1325px;
+  height: 550px;
+  background-color: rgb(233, 233, 255);
+  margin: auto;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.container img {
+  padding: 8.9px;
+}
